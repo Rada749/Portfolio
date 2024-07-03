@@ -19,7 +19,6 @@ body {
     background-color: var(--color_fondo);
     font-family: "Neucha", cursive;
     color: white;
-    padding-top: 3em;
 }
 h1 {
     font-size: 3.5em;
@@ -102,10 +101,8 @@ li input {
     height: var(--altura_header);
     background-color: var(--color_primario);
     width: 100%;
-    height: 5em;
     left: 0;
     top: 0;
-    position: fixed;
 }
 .navbar {
     height: 100%;
@@ -241,7 +238,7 @@ li input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 5em;
+    margin-bottom: 6em;
 }
 .texto4 {
     font-size: 1.3em;
@@ -325,6 +322,9 @@ li input {
     }
     li textarea {
         max-width: 18em;
+    }
+    .header {
+        position: fixed;
     }
 }
 @media (max-width:450px) {
