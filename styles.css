@@ -267,7 +267,7 @@ li input {
     width: 100%;
     height: 3em;
     margin: 0 auto;
-    background-color: #000;
+    background-color: var(--color_primario);
 }
 .logo {
     width: 1em;
