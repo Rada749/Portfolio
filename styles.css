@@ -178,23 +178,7 @@ li input {
     font-weight: bold;
 }
 
-@media (min-width:780px) {
-    .labe_hamburguesa {
-        display: none;
-    }
-    .ul_links {
-        position: static;
-        width: auto;
-        height: auto;
-        flex-direction: row;
-        gap: 2rem;
-    }
-    .link {
-        font-size: 1.2rem;
-        transition: all;
-        padding: .2rem .7rem;
-    }
-}
+
 
 .presentacion {
     margin-left: auto;
@@ -281,22 +265,6 @@ li input {
     margin-left: 2em;
 }
 
-@media (max-width:780px) {
-    .tarjeta1 {
-        display: flex;
-        flex-flow: column-reverse wrap;
-    }
-
-    .tarjeta2 {
-        display: flex;
-        flex-flow: column-reverse wrap;
-    }
-    .textocaja {
-        margin-bottom: 2em;
-    }
-}
-
-
 .sobremi {
     display: flex;
     flex-direction: column;
@@ -337,16 +305,6 @@ li input {
     margin: 0.5em;
 }
 
-
-@media (max-width:780px) {
-    li input {
-        max-width: 18em;
-    }
-    li textarea {
-        max-width: 18em;
-    }
-}
-
 .logo:hover {
     cursor: pointer;
 }
@@ -385,6 +343,45 @@ li input {
     padding: 0.5em;
 }
 
+@media (min-width:780px) {
+    .labe_hamburguesa {
+        display: none;
+    }
+    .ul_links {
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .link {
+        font-size: 1.2rem;
+        transition: all;
+        padding: .2rem .7rem;
+    }
+}
+
+@media (max-width:780px) {
+    .tarjeta1 {
+        display: flex;
+        flex-flow: column-reverse wrap;
+    }
+
+    .tarjeta2 {
+        display: flex;
+        flex-flow: column-reverse wrap;
+    }
+    .textocaja {
+        margin-bottom: 2em;
+    }
+    li input {
+        max-width: 18em;
+    }
+    li textarea {
+        max-width: 18em;
+    }
+}
+
 @media (max-width:450px) {
     .logo {
         width: 1em;
@@ -400,7 +397,6 @@ li input {
         font-size: 0.3em;
     }
 }
-
 
 
 
