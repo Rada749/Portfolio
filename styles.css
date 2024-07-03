@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
-
 :root {
     --color_primario: black;
     --color_fondo: #3D3D3D;
@@ -10,26 +9,22 @@
     --ancho_maximo: 1200px;
     --fuente: font-family: "Neucha", cursive;
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 body {
     background-color: var(--color_fondo);
     font-family: "Neucha", cursive;
     color: white;
     padding-top: 3em;
 }
-
 h1 {
     font-size: 3.5em;
     font-weight: 500;
 }
-
 h2 {
     font-size: 3em;
     font-weight: 200;
@@ -37,33 +32,27 @@ h2 {
     margin-top: 15%;
     margin-bottom: 5%;
 }
-
 h3 {
     font-size: 1.5em;
     font-weight: 500;
 }
-
 hr {
     width:90%;
     margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
 }
-
 a {
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
-
 li {
     padding-left: 4rem;
     padding-right: 4rem;
 
 }
-
 form {
     display: flex;
     flex-direction: column;
@@ -71,20 +60,17 @@ form {
     align-items: center;
     margin-top: 1em;
 }
-
 form li {
     margin: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 form button:hover {
     background-color: #00000070;
     border: 1;
     cursor: pointer;
 }
-
 li textarea {
     border-radius: 0.75em;
     background-color: var(--color_cajas);
@@ -99,7 +85,6 @@ li textarea {
     outline: none;
     resize: none;
 }
-
 li input {
     border-radius: 0.75em;
     background-color: var(--color_cajas);
@@ -114,7 +99,6 @@ li input {
     font-family: var(--fuente);
     outline: none;
 }
-
 .header {
     height: var(--altura_header);
     background-color: var(--color_primario);
@@ -124,7 +108,6 @@ li input {
     top: 0;
     position: fixed;
 }
-
 .navbar {
     height: 100%;
     display: flex;
@@ -133,25 +116,20 @@ li input {
     align-items: center;
     padding: 0 var(--padding_left_right);
 }
-
 .menu_hamburguesa {
     display: none;
 }
-
 .menu_hamburguesa:checked + .ul_links {
     height: calc(100vh - var(--altura_header));
 }
-
 .labe_hamburguesa {
     position: relative;
     left: 45%;
 }
-
 .list_icon {
     color: var(--color_letras);
     cursor: pointer;
 }
-
 .ul_links {
     width: 100%;
     background-color: var(--color_primario);
@@ -168,18 +146,13 @@ li input {
     gap: 3rem;
     transition: all .3s;
 }
-
 .link {
     font-size: 3em;
     color: var(--color_letras);
 }
-
 .link:hover {
     font-weight: bold;
 }
-
-
-
 .presentacion {
     margin-left: auto;
     margin-right: auto;
@@ -187,7 +160,6 @@ li input {
     margin-bottom: 9em;
     width: 90%;
 }
-
 .cartapresentacion {
     display: flex;
     justify-content: center;
@@ -195,25 +167,20 @@ li input {
     margin-top: 5em;
     margin-bottom: 5em;  
 }
-
 .texto1 {
     font-size: 1.5em;
 }
-
-
 .foto {
     width: 18em;
     height: 18em;
     border-radius: 27.5rem;
     padding: 1 auto;
 }
-
 .textopresentacion {
     margin-top: 5%;
     margin-left: 30px;
     width:60%;
 }
-
 .proyectos {
     display: flex;
     justify-content: center;
@@ -221,7 +188,6 @@ li input {
     flex-direction: column;
     margin-bottom: 6em;
 }
-
 .tarjeta1 {
     background-color: var(--color_cajas);
     display: flex;
@@ -232,7 +198,6 @@ li input {
     margin: 2em;
     overflow: hidden;
 }
-
 .tarjeta2 {
     background-color: var(--color_cajas);
     display: flex;
@@ -244,7 +209,6 @@ li input {
     margin: 2em;
     overflow: hidden;
 }
-
 .textocaja {
     display: flex;
     justify-content: center;
@@ -252,11 +216,9 @@ li input {
     margin-left: 2em;
     margin-right: 2em;
 }
-
 .texto2 {
     font-size: 1.7em;
 }    
-
 .imagen {
     width: 50%;
     margin-top: 2em;
@@ -264,35 +226,30 @@ li input {
     margin-right: 2em;
     margin-left: 2em;
 }
-
 .sobremi {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 9em;
 }
-
 .texto3 {
     font-size: 1.5em;
     width: 90%;
     text-align: center;
     margin: auto;
 }
-
 .contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 5em;
 }
-
 .texto4 {
     font-size: 1.3em;
     width: 90%;
     text-align: center;
     margin: auto;
 }
-
 .contacto button {
     border-radius: 0.75em;
     background-color: var(--color_cajas);
@@ -304,11 +261,9 @@ li input {
     font-size: medium;
     margin: 0.5em;
 }
-
 .logo:hover {
     cursor: pointer;
 }
-
 .navbarfooter {
     display: flex;
     justify-content: space-evenly;
@@ -318,31 +273,25 @@ li input {
     margin: 0 auto;
     background-color: #000;
 }
-
 .logo {
     width: 1em;
 }
-
 .ul-footer-links {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
 .link-footer {
     color: #fff;
     font-size: 0.6em;
 }
-
 .link-footer:hover {
     font-weight: bold;
 }
-
 .li-footer-links {
     width: 4em;
     padding: 0.5em;
 }
-
 @media (min-width:780px) {
     .labe_hamburguesa {
         display: none;
@@ -360,7 +309,6 @@ li input {
         padding: .2rem .7rem;
     }
 }
-
 @media (max-width:780px) {
     .tarjeta1 {
         display: flex;
@@ -381,7 +329,6 @@ li input {
         max-width: 18em;
     }
 }
-
 @media (max-width:450px) {
     .logo {
         width: 1em;
