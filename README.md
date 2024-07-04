@@ -12,8 +12,7 @@ Fue diseñado en Figma por una compañera y maquetado por mi en HTML y CSS, es u
 git clone https://github.com/Rada749/Portfolio.git
 ```
 
-2.- !Listo¡ Usa tu VSC con la extension Live Server para visualizarlo en tu navegador Chrome, que te permitira a su vez utilizar la extension de desarrolador para visualizar la web en distintos dispositivos.
-
+2.- !Listo¡ Usa tu navegador para visualizar la web.
 ### Capturas del diseño en Figma
 
 <img src="Capturas/Portfolio1.png">
