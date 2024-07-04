@@ -2,7 +2,7 @@
 
 Este repositorio contiene mi portafolio personal.
 
-Fue diseñado en Figma por una compañera y maquetado por mi en HTML y CSS.
+Fue diseñado en Figma por una compañera y maquetado por mi en HTML y CSS, es una web responsiva que se adapta al tamaño los dispositivos, he incluido un menu hamburguesa para las pantallas moviles.
 
 ### Visualizalo:
 
@@ -12,11 +12,9 @@ Fue diseñado en Figma por una compañera y maquetado por mi en HTML y CSS.
 git clone https://github.com/Rada749/Portfolio.git
 ```
 
-2.- Usa tu navegador para visualizarlo
+2.- !Listo¡ Usa tu VSC con la extension Live Server para visualizarlo en tu navegador Chrome, que te permitira a su vez utilizar la extension de desarrolador para visualizar la web en distintos dispositivos.
 
 ### Capturas del diseño en Figma
-
-
 
 <img src="Capturas/Portfolio1.png">
 
@@ -29,5 +27,6 @@ git clone https://github.com/Rada749/Portfolio.git
 <img src="Capturas/Portfolio5.png">
 
 <img src="Capturas/Portfolio6.png">
+
 
 
