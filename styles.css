@@ -189,7 +189,7 @@ li input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
     border-radius: 25px;
     margin: 2em;
     overflow: hidden;
@@ -200,7 +200,7 @@ li input {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
     border-radius: 25px;
     margin: 2em;
     overflow: hidden;
