@@ -291,7 +291,7 @@ li input {
     width: 4em;
     padding: 0.5em;
 }
-@media (min-width:819px) {
+@media (min-width:780px) {
     .labe_hamburguesa {
         display: none;
     }
